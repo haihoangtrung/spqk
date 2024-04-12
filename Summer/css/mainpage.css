@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #highlight {
+    border-bottom: 2px solid black;
+    color: black;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jost', sans-serif;
+  }
+  
+  @keyframes slideup {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* slide-in-number */
+  
+  /* Style banner */
+  .banner {
+    /* background: #115061; */
+    position: relative;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .banner h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    line-height: 1;
+  }
+  
+  
+  .banner img {
+    height: 600px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+  .features>div {
+    background: #f6f7f9;
+    padding: 30px 35px;
+    display: flex;
+    gap: 25px;
+  }
+  
+  
+  .features i {
+    width: 30x;
+    font-size: 30px;
+    color: #f8516f;
+  }
+  
+  
+  .features>div>div {
+    font-size: 18px;
+  }
+  
+  .features strong {
+    color: #000;
+  }
+  
+  .features p {
+    color: #808080;
+    margin-top: 5px;
+  }
+  
+  
+  .main-content {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  #categories {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .category-card img {
+    width: 160px;
+    height: 160px;
+  }
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.card{
+    width:22% ;
+    margin: 15px;
+
+}
+.card .image-container{
+    width: 235px;
+    height: 235px;
+   
+
+}
+.card .container{
+    border-top: 1px solid rgb();
+}
+.card .old-price{
+    text-decoration:line-through ;
+    font-size:smaller ;
+}
+.card .new-price{
+    color: blue;
+    font-size:large ;
+}
+.stars i{
+    color: yellow;
+}

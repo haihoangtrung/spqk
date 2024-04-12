@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+.introduce {
+   font-size: 25px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.icon{
+    /* margin-top: 40px; */
+    text-align: center;
+}
+.icon i{
+ color: blue;
+ font-size: 40px;
+ padding: 0px 10px;
+}
+
+body{
+    background-image: url(/img/pexels-peter-fazekas-1170572.jpg);
+    background-size: cover;
+}
+.picture{
+    text-align: center;
+}
+.employer i{
+    font-size: 200px;
+    color: rgb(26, 114, 111);
+}
+.employer{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 20px;
+     color: white; 
+}
